@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.parent{
+ 
+    width: 400px;
+    margin : 0 auto;
+    background-color: #eff2f7;
+}
+
+.child {
+
+ width: 200px;
+ height:200px;
+ line-height: 200px;
+ text-align: center;
+ color: #fff;
+ font-weight: 600;
+}
+
+.red{
+    float: left;
+    background-color: red;
+}
+.yellow{
+    float: left;
+    background-color: yellow;
+}
+.blue{
+    float: left;
+    background-color: blue;
+}
+.other{
+    background-color: #000;
+    color: #fff;
+}

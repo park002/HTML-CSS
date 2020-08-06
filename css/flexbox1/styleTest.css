@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.TabItem{
+    width:115px;
+    position: absolute;
+    height: 52px;
+    background: #FFFFFF;
+    left: 0px;
+    top:0px;
+}
+.TabItem1{
+    widows: 93px;
+    position: absolute;
+    height: 52px;
+    background: #FFFFFF;
+    left: 131px;
+    top:0px;
+    list-style: none;
+    
+}
+.Summary{
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    left:20px;
+    top:16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #8492A6;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+.Emails{
+    width: 53px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top:20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: center;
+    color: #2860E1;
+
+}

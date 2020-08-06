@@ -1,0 +1,18 @@
+.parent{
+   
+    background-color: white;
+  
+}
+.child{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 200px;
+}
+.orther{
+    height: 50px;
+    background-color: hotpink;
+    width: 200px;
+}
+

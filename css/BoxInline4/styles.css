@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+}
+body{
+    color: black;
+}
+span{
+    width: 200px;
+    height: 300px;
+    padding-top: 30px;
+    display: inline-block;
+    color:#fff;
+    background-color: #0066ff;
+}
