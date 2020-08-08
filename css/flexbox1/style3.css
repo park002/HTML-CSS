@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    color:black;
+}
+.pseudo::before{
+    content: "★";
+    margin-right:20px;
+    font-size: 30px;
+}
+.pseudo::after{
+    content:"!";
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    font-style: italic;
+    background-color: pink;
+}

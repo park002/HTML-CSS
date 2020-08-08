@@ -3,14 +3,17 @@
     margin: 0;
 }
 .parent{
- 
     width: 400px;
     margin : 0 auto;
     background-color: #eff2f7;
 }
+/* .parent::after{
+    content: "";
+    display: block;
+    clear:left;
+} */
 
 .child {
-
  width: 200px;
  height:200px;
  line-height: 200px;
@@ -34,4 +37,8 @@
 .other{
     background-color: #000;
     color: #fff;
+}
+.clear{
+  
+    clear:left;
 }
