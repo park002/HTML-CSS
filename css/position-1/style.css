@@ -16,49 +16,48 @@ h1 {
 
 /* ▼ WHERE YOUR CODE BEGINS */
 .user-card{
-  width:240px;
-  height: 56px;
-  padding:8px 12px;
-  border: 1px solid #E5EAEF;
   border-radius: 4px;
-  background: #FFFFFF;
-
+  border: 1px solid #E5EAEF;
+  max-width: 240px;
+  height: 56px;
+  padding: 8px 12px;
 }
 .user-card::after{
+  display:block;
   content: '';
-  display: block;
   clear: left;
 }
-.user-photo,
-.user-name{
-  float: left;
-}
-.user-photo{
-  margin-right: 12px;
-  position: relative;
-}
+
 .user-photo img{
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+border-radius: 50%;
+display:block;
+background: #00214E;;
+width: 40px;
+height: 40px;
+}
+
+.user-photo{
+  position: relative;
+  margin-right: 12px;
 }
 .user-status{
-  right: -2px;
-  bottom: -2px;
-  position:absolute;
-  width: 8px;
-  height: 8px;
+  display: block;
   border-radius: 50%;
-  border: 2px solid #FFFFFF;
-  background-color:#21D891;
-  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  border:2px solid #FFFFFF;
+  background-color: #21D891;
+  right:-2px;
+  bottom:-2px;
+ 
 }
+
+.user-photo,
+ user-name{
+  float: left;
+}
+
 .user-name{
-  padding: 8px 0;
+ padding: 8px 0;
 }
-
-
-
-
-
