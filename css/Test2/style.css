@@ -1,0 +1,36 @@
+*{
+ box-sizing: border-box;
+ margin: 0;   
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;  
+    background-color: #ff4949; 
+    font-size: 30px;
+    font-weight: 700;
+    color:#fff;
+}
+.box::after{
+    content:'Mobile';
+}
+@media screen and (min-width:576px){
+    /* 가로길이 576px 이상일때만 조건 허용 */
+    /* css처리 */
+    .box{
+        background-color: #ff5216;
+    }
+    .box::after{
+        content: 'Landscap Phone';
+    }
+}
+@media screen and (min-width:768px) {
+    .box{
+        background-color: #ffc82c;
+    }
+    .box::after{
+        content: 'Tablet';
+    }
+}
