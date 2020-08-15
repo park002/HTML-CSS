@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'kimbug';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./asstes/fonts/NanumSquareL.eot'); 
+    src: url('./asstes/fonts/NanumSquareL.ttf.eot?#iefix') format('embedded-opentype'),
+         url('./asstes/fonts/NanumSquareL.woff') format('woff'),  
+         url('./asstes/fonts/NanumSquareL.ttf')  format('truetype');
+}
+
+@font-face{
+    font-family: 'kimbug';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./asstes/fonts/NanumSquareR.eot'); 
+    src: url('./asstes/fonts/NanumSquareR.ttf.eot?#iefix') format('embedded-opentype'),
+         url('./asstes/fonts/NanumSquareR.woff') format('woff'),  
+         url('./asstes/fonts/NanumSquareR.ttf')  format('truetype');
+}
+@font-face{
+    font-family: 'kimbug';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./asstes/fonts/NanumSquareB.eot'); 
+    src: url('./asstes/fonts/NanumSquareB.ttf.eot?#iefix') format('embedded-opentype'),
+         url('./asstes/fonts/NanumSquareB.woff') format('woff'),  
+         url('./asstes/fonts/NanumSquareB.ttf')  format('truetype');
+}
+@font-face{
+    font-family: 'kimbug';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./asstes/fonts/NanumSquareB.eot'); 
+    src: url('./asstes/fonts/NanumSquareB.ttf.eot?#iefix') format('embedded-opentype'),
+         url('./asstes/fonts/NanumSquareB.woff') format('woff'),  
+         url('./asstes/fonts/NanumSquareB.ttf')  format('truetype');
+} 
+@font-face{
+    font-family: 'kimbug';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./asstes/fonts/NanumSquareEB.eot'); 
+    src: url('./asstes/fonts/NanumSquareEB.ttf.eot?#iefix') format('embedded-opentype'),
+         url('./asstes/fonts/NanumSquareEB.woff') format('woff'),  
+         url('./asstes/fonts/NanumSquareEB.ttf')  format('truetype');
+} 

@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-position: center bottom;
+    background-size: auto 80%;
+    background-color: hotpink;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1597347753453-58d55c38e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+}
+
+    
