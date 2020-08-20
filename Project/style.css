@@ -61,6 +61,23 @@ input{
     color: #3040c4;
     background-color:#fff;
 }
+.section{
+    padding:80px 0;
+}
+.section-category{
+    display: block;
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+}
+.section-title{
+    font-size: 34px;
+    line-height: 1.05882352941;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+    color: #2B292D;
+}
 
 /* Landing-CSS*/
 .landing{
@@ -93,6 +110,31 @@ input{
     margin-right: 8px;
 }
 
+/* Service CSS */
+.service{
+    padding: 80px 0;
+    width: 100%;
+    background-color: #F4F5F7;
+}
+.service-title{
+    font-size: 22px;
+    line-height: 1.36363636364;
+    letter-spacing: -0.04em;
+    color: #2B292D;
+    margin-bottom: 16px;
+}
+.service .col-12:first-child{
+    margin-bottom: 40px;
+}
+
+/* Program CSS */
+
+.program .section-category{
+    color: #009B4D;
+}
+
+
+
 
 /* >768 (Desktop) */
 @media screen and (min-width:768px) {
@@ -101,6 +143,26 @@ input{
          font-size: 22px;
          line-height: 1.45454545455;
     }
+    .fill-button{
+        width: 160px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 1.55555555556;
+    }
+    .section{
+        padding-bottom: 96px;
+    }
+    .section-category{
+      font-size: 22px;
+      line-height: 1.09090909091;
+      margin-bottom: 16px;
+    }
+    .section-title{
+        font-size: 56px;
+        line-height: 1;
+        margin-bottom: 32px;
+    }
+    
     /* Landing CSS */
     .landing-content{
         height: auto;
@@ -118,16 +180,25 @@ input{
     .landing .button-group .fill-button:first-child{
         margin-right: 16px;
     }
-
-    .fill-button{
-        width: 160px;
-        height: 56px;
-        font-size: 18px;
-        line-height: 1.55555555556;
-    }
     
+    /* Service CSS */
+    .service .col-12:first-child{
+        margin-bottom: auto;
+    }
+    .service-title{
+        font-size: 26px;
+        line-height: 1.30769230769;
+    }
+    .service-desc{
+        font-size: 22px;
+        line-height: 1.45454545455;
+    }
+    /* Program CSS */
+    .program{
+        text-align: center;
+    }
+  
 }
-
 /* Custom grid System - Fix container width */
 @media screen and (min-width:1200px){
     .container{
