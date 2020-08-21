@@ -78,6 +78,12 @@ input{
     margin-bottom: 24px;
     color: #2B292D;
 }
+.section-desc{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #2B292D;
+}
 
 /* Landing-CSS*/
 .landing{
@@ -128,9 +134,70 @@ input{
 }
 
 /* Program CSS */
-
+.program{
+    text-align: center;
+}
+.program .row:first-child{
+    margin-bottom: 32px;
+}
 .program .section-category{
     color: #009B4D;
+}
+.program .row .col-md-4:not(:last-child){
+    margin-bottom: 20px;
+}
+.program-card{
+    display: block;
+    padding: 24px 0 72px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #2B292D;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms ease-in-out,
+                box-shadow 250ms ease-in-out,
+                color 450ms ease-in-out;
+}
+.program-card:hover{
+    color: #ffffff;
+    background-color: #3141C5;
+    box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+}
+
+.program-card img{
+    display: block;
+    width: auto;
+    height: 195px;
+    margin: 0 auto 16px;
+}
+.program-card strong{
+    font-size: 18px;
+    line-height: 1.33333333333;
+    letter-spacing: -0.02em;
+}
+
+/* Curriculum CSS  */
+.curriculum .row:first-child{
+    margin-bottom: 48px;
+}
+.curriculum .row:last-child .col-md-6:first-child{
+    margin-bottom: 40px;
+}
+
+.curriculum .section-category{
+    color: #0189D1;
+}
+.curriculum .section-desc{
+    margin-bottom: 32px;
+}
+.curriculum-image{
+    display: none;
+}
+
+.curriculum-detail-desc{
+    font-size: 15px;
+    line-height: 1.46666666667;
+    letter-spacing: -0.01em;
+    color:#2B292D;
 }
 
 
@@ -193,11 +260,50 @@ input{
         font-size: 22px;
         line-height: 1.45454545455;
     }
+
     /* Program CSS */
-    .program{
-        text-align: center;
+   .program .row:first-child{
+    margin-bottom: 72px;
     }
-  
+    .program .row .col-md-4:not(:last-child){
+        margin-bottom: auto;
+    }
+
+    .program-card{
+        padding: 24px 0 80px;
+    }
+    .program-card img{
+        margin-bottom:24px;
+    }
+    .program-card strong{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    /* Curriculum CSS */
+    .curriculum .row:first-child{
+        margin-bottom: 24px;
+    }
+    .curriculum .section-desc{
+        margin-bottom: 72px;
+    }
+    .curriculum-detail-desc{
+        font-size: 18px;
+        line-height: 1.44444444444;
+    }
+    .curriculum-image{
+        display:block;
+    }
+    .curriculum-image img{
+        display: block;
+        width: 100%;
+        max-width: 425px;
+        height: auto;
+    }
+    .curriculum .row:last-child .col-md-6:first-child{
+        margin-bottom: 0;
+    }
+
+ 
 }
 /* Custom grid System - Fix container width */
 @media screen and (min-width:1200px){
