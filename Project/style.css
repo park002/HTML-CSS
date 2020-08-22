@@ -302,6 +302,11 @@ input{
     .curriculum .row:last-child .col-md-6:first-child{
         margin-bottom: 0;
     }
+    
+    /* Subscription CSS */
+    .subscription.section{
+        padding-bottom: 80px;
+    }
 
  
 }
