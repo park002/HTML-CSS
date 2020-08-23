@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0;
 }
-p{
-    background-color: cornflowerblue;
-    border: 1px solid #0066ff;
+.aaa {
+  width:290px;
+  height: 48px;
+}
+.submit{
+    width: 290px;
+    height: 48px;
 }
