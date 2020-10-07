@@ -1,0 +1,81 @@
+body{
+    background-color: #6BBCBE;
+    overflow: hidden;
+}
+main{
+    padding: 100px 0;
+}
+.circle-container,
+.rect-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-container{
+    margin-bottom: 90px;
+    animation: superSexyRotate 1s linear infinite;
+}
+.circle-container span{
+    background-color:white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.circle-container span:not(:last-child){
+    margin-right: 22px;
+}
+.rect-container span{
+    background-color:white;
+    width: 10px;
+    height: 40px;
+    animation: superSexyScale 1s ease-in infinite;
+}   
+.rect-container span:not(:last-child){
+    margin-right: 6px;
+}
+.rect-container span:first-child{
+    animation-delay: 0.3s;
+}
+.rect-container span:nth-child(2){
+    animation-delay: 0.4s;
+}
+.rect-container span:nth-child(3){
+    animation-delay: 0.5s;
+}
+.rect-container span:nth-child(4){
+    animation-delay: 0.6s;
+}
+.rect-container span:last-child{
+    animation-delay: 0.7s;
+}
+@keyframes superSexyScale{
+    0%{
+        transform: scaleY(1);
+      }
+      30% {
+        transform: scaleY(2);
+      }
+      65% {
+        transform: scaleY(1);
+      }
+      100% {
+        transform: scaleY(1);
+      }
+}
+
+@keyframes superSexyRotate{
+    0%{
+        transform: rotateZ(0);
+      }
+      30% {
+        transform: rotateZ(0);
+      }
+      65% {
+        transform: rotateZ(180deg);
+      }
+      100% {
+        transform: rotateZ(180deg);
+      }
+}
+
+
